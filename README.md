@@ -32,7 +32,7 @@ https://drive.google.com/file/d/1EAbrKfhdNyZ9Blt55_1ukVgJLD2PPonX/view?usp=shari
 
 ## 🔗 Website Link
 
-https://github.com/prathamshetty-10/ShowcaseScape-Portfolio
+https://showcasescape.vercel.app/
 
 
 
