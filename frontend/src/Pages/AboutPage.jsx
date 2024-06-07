@@ -106,7 +106,7 @@ function About(){
                             BTECH-Manipal Institute Of Technology, Manipal
                         </div>
                         <div className="text-xl lg:text-xl text-zinc-900 font-bold px-[5px] rounded-xl lg:ml-[20px] mt-[25px] lg:mt-[10px] bg-gradient-to-r from-yellow-700 to bg-yellow-200 mx-[5px] lg:mx-[0px]">
-                         Currently persuing CGPA:9.61
+                         Currently persuing CGPA:9.67
                         </div>
                         </div>
                         <div className=' lg:text-lg lg:text-white mx-[20px] mt-[15px] lg:mt-[10px] text-white text-lg'>
