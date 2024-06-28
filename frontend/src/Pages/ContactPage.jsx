@@ -10,6 +10,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 import {motion} from 'framer-motion'
+import { SiLeetcode } from "react-icons/si";
 function Contact(){
     const form = useRef();
 
@@ -76,7 +77,7 @@ function Contact(){
                     Linkedin
                     </a>
             </div>
-            <div className="lg:flex mb-[25px] border-gray-800 border-b-[0.5px] md:border-0 pb-[20px]">
+            <div className="lg:flex mb-[15px] lg:mb-[5px]">
             <a href="https://www.instagram.com/pratham?igsh=bGF6ZnA2bXB3dTkw" target="_blank" className=" flex gap-3 justify-center items-center w-[90%] lg:w-full mb-[15px] lg:mb-[10px] text-white  my-[8px] h-[60px] border hover:border hover:border-yellow-500 border-black rounded-md bg-black   m-1 hover:text-yellow-500   transition-all ease-in-out duration-300 delay-100 focus:bg-gray-900  mx-[18px] text-xl md:text-2xl shadow-[0_0_10px_gray] ">
                     <FaInstagram size={32}/>
                     Instagram
@@ -85,6 +86,13 @@ function Contact(){
                     <CiMail size={32}/>
                     Email
                     </a>
+            </div>
+            <div className="lg:flex  border-gray-800 border-b-[0.5px] md:border-0 pb-[20px] justify-center items-center">
+            <a href="https://leetcode.com/u/JW7JTzkKrq/" target="_blank" className=" flex gap-3 justify-center items-center w-[90%] lg:w-full mb-[15px] lg:mb-[10px] text-white  my-[8px] h-[60px] border hover:border hover:border-yellow-500 border-black rounded-md bg-black   m-1 hover:text-yellow-500   transition-all ease-in-out duration-300 delay-100 focus:bg-gray-900  mx-[18px] text-xl md:text-2xl shadow-[0_0_10px_gray] ">
+                    <SiLeetcode size={32}/>
+                    LeetCode
+                    </a>
+            
             </div>
 
         </div>

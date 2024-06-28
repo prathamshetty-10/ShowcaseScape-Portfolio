@@ -14,6 +14,7 @@ import { CiMail } from "react-icons/ci";
 import { useNavigate } from "react-router-dom";
 import { IoLocationOutline } from "react-icons/io5";
 import { AiOutlinePicture } from "react-icons/ai";
+import { SiLeetcode } from "react-icons/si";
 function SideBar(){
     const navigate=useNavigate();
     const {state}=useLocation();
@@ -120,12 +121,12 @@ function SideBar(){
                         )
                     }
                     
-                    <div className='flex gap-4 justify-center items-center mt-[35px] '>
+                    <div className='flex gap-3 justify-center items-center mt-[35px] '>
                     <a href='https://github.com/prathamshetty-10' target="_blank"><LuGithub  size={30} className='text-white  font-semibold hover:text-yellow-500 hover:cursor-pointer'/></a>
                     <a href='https://www.linkedin.com/in/prathamshetty64546/' target="_blank"><CiLinkedin  size={30} className='text-white  font-semibold hover:text-yellow-500 hover:cursor-pointer'/></a>
                     <a href='https://www.instagram.com/pratham?igsh=bGF6ZnA2bXB3dTkw' target="_blank"><FaInstagram  size={30} className='text-white  font-semibold hover:text-yellow-500 hover:cursor-pointer'/></a>
                     <a href='mailto:prathamshetty484@gmail.com' target="_blank"><CiMail  size={30} className='text-white  font-semibold hover:text-yellow-500 hover:cursor-pointer'/></a>
-
+                    <a href='https://leetcode.com/u/JW7JTzkKrq/' target="_blank"><SiLeetcode  size={30} className='text-white  font-semibold hover:text-yellow-500 hover:cursor-pointer'/></a>
                     </div>
                     
                    
