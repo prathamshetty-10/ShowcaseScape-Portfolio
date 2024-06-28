@@ -14,6 +14,8 @@ import Cimage from '../assets/c.png'
 import Jimage from '../assets/js.png'
 import hack from '../assets/hack.png'
 import dep from '../assets/dep.png'
+import hh from '../assets/HH.png'
+import crz from '../assets/crz.jpg'
 import pic from '../assets/pic.jpg'
 
 
@@ -38,51 +40,51 @@ function HomePage(){
 
     const navigate=useNavigate();
 
-    const arrayOfProjects=[<motion.div className=" mx-[10%] my-[50px] h-[650px] lg:h-[400px] lg:flex hover:shadow-[0_0_25px_gray] bg-zinc-900 rounded-3xl" 
+    const arrayOfProjects=[ <motion.div className=" mx-[10%] my-[50px] h-[650px] lg:h-[400px] lg:flex hover:shadow-[0_0_25px_gray] bg-zinc-900 rounded-3xl" 
        
-    initial={{opacity:0,transition:{duration:0.5}}}
-    animate={{opacity:1}}
-    exit={{opacity:0,transition:{duration:0.5}}}
-    >
-    
-    <img src={port} className="w-full h-[50%] lg:h-full lg:w-[50%] rounded-l-3xl"></img>
-    
-    <div className="w-full h-[50%] lg:h-full lg:w-[50%] ">
-    <h4 className="text-3xl lg:text-5xl text-extrabold text-white flex">
-        <span className="text-yellow-500 m-[10px] mx-[30px]">ShowcaseScape </span> 
-        </h4>
-        <div className="text-white text-xl m-[20px] mb-[5px] ">
-        Welcome to ShowcaseScape! Explore my curated portfolio, showcasing the pinnacle of my creative journey. <span className="hidden lg:block">Discover stunning designs and innovative projects, each crafted with passion and precision. Dive in and get inspired by a landscape of talent and imagination.</span>
-        </div>
-        <button  className=" mx-[25%] w-[50%] lg:w-[50%] mt-6 lg:mt-8 bg-yellow-600 hover:bg-yellow-400 transition-all ease-in-out duration-300 text-black font-semibold hover:text-blue-950 rounded-lg py-3 text-lg cursor-pointer  mb-[50px] lg:mb-[0px] mr-[30px] lg:mr-[0px] hover:scale-105">
-        <a href="https://github.com/prathamshetty-10/ShowcaseScape-Portfolio" target="_blank" className="flex justify-center items-center gap-3 text-xl">
-        <LuGithub size={32}/>
-        <span className="font-bold text-2xl">Explore</span>
-                
-         </a>       </button>
-    
-    </div>
-    
-    </motion.div>,
-
-    <motion.div className=" mx-[10%] my-[50px] h-[650px] lg:h-[400px] lg:flex hover:shadow-[0_0_25px_gray] bg-zinc-900 rounded-3xl" 
-        
         initial={{opacity:0,transition:{duration:0.5}}}
         animate={{opacity:1}}
         exit={{opacity:0,transition:{duration:0.5}}}
         >
         
-        <img src={course} className="w-full h-[50%] lg:h-full lg:w-[50%] rounded-l-3xl "></img>
+            <img src={hh} className="w-full h-[50%] lg:h-full lg:w-[50%] rounded-l-3xl"></img>
         
-        <div className="w-full h-[50%] lg:h-full lg:w-[50%] ">
-        <h4 className="text-3xl lg:text-5xl text-extrabold text-white flex">
-            <span className="text-yellow-500 m-[10px] mx-[30px]">EduVenture </span> 
+            <div className="w-full h-[50%] lg:h-full lg:w-[50%] ">
+            <h4 className="text-3xl lg:text-5xl text-extrabold text-white flex">
+            <span className="text-yellow-500 m-[10px] mx-[30px]">HealthHuddle</span> 
             </h4>
-            <div className="text-white text-xl m-[20px] md:mb-[40px] lg:mb-[10px] ">
-            Welcome to EduVenture – your gateway to mastering new skills and advancing your career. <span className="hidden lg:block">Explore expertly crafted courses, guided by industry professionals, and unlock your full potential. Join us today and embark on your educational adventure!</span>
+            <div className="text-white text-xl m-[20px] mb-[0px] ">
+            Health Huddle is an innovative platform designed specifically for hospital environments to foster better communication and support between doctors and patients. <span className="hidden lg:block">HealthHuddle is dedicated to improving the hospital experience by facilitating meaningful connections and support networks for both patients and healthcare providers.</span>
             </div>
-            <button  className=" mx-[25%] w-[50%] lg:w-[50%] mt-6 lg:mt-8 bg-yellow-600 hover:bg-yellow-400 transition-all ease-in-out duration-300 text-black font-semibold hover:text-blue-950 rounded-lg py-3 text-lg cursor-pointer  mb-[50px] lg:mb-[0px] mr-[30px] lg:mr-[0px] hover:scale-105">
-            <a   href='https://github.com/prathamshetty-10/lms-mern-project' target="_blank" className="flex justify-center items-center gap-3 text-xl">
+            <button  className=" mx-[25%] w-[50%] lg:w-[50%] mt-6 lg:mt-5 bg-yellow-600 hover:bg-yellow-400 transition-all ease-in-out duration-300 text-black font-semibold hover:text-blue-950 rounded-lg py-3 text-lg cursor-pointer  mb-[50px] lg:mb-[0px] mr-[30px] lg:mr-[0px] hover:scale-105">
+            <a href="https://github.com/prathamshetty-10/HealthHuddle" target="_blank" className="flex justify-center items-center gap-3 text-xl">
+            <LuGithub size={32}/>
+            <span className="font-bold text-2xl">Explore</span>
+                    
+             </a>       </button>
+        
+        </div>
+        
+        </motion.div>,
+
+        <motion.div className=" mx-[10%] my-[50px] h-[650px] lg:h-[400px] lg:flex hover:shadow-[0_0_25px_gray] bg-zinc-900 rounded-3xl" 
+   
+        initial={{opacity:0,transition:{duration:0.5}}}
+        animate={{opacity:1}}
+        exit={{opacity:0,transition:{duration:0.5}}}
+        >
+        
+            <img src={crz} className="w-full h-[50%] lg:h-full lg:w-[50%] rounded-l-3xl"></img>
+        
+            <div className="w-full h-[50%] lg:h-full lg:w-[50%] ">
+            <h4 className="text-3xl lg:text-5xl text-extrabold text-white flex">
+            <span className="text-yellow-500 m-[10px] mx-[30px]">CRZ </span> 
+            </h4>
+            <div className="text-white text-xl m-[20px] lg:mb-[0px] ">
+            CRZ Web App is a digital solution developed to streamline the process of obtaining clearances for coastal land in the Udupi District. <span className="hidden lg:block"> This project was undertaken for the Udupi District Deputy Commissioner's Office with a primary focus on enhancing user experience and accessibility, particularly for the elderly population.</span>
+            </div>
+            <button  className=" mx-[25%] w-[50%] lg:w-[50%] mt-6 lg:mt-5 bg-yellow-600 hover:bg-yellow-400 transition-all ease-in-out duration-300 text-black font-semibold hover:text-blue-950 rounded-lg py-3 text-lg cursor-pointer  mb-[50px] lg:mb-[0px] mr-[30px] lg:mr-[0px] hover:scale-105">
+            <a href="https://github.com/prathamshetty-10/ShowcaseScape-Portfolio" target="_blank" className="flex justify-center items-center gap-3 text-xl">
             <LuGithub size={32}/>
             <span className="font-bold text-2xl">Explore</span>
                     
