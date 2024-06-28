@@ -84,7 +84,7 @@ function HomePage(){
             CRZ Web App is a digital solution developed to streamline the process of obtaining clearances for coastal land in the Udupi District. <span className="hidden lg:block"> This project was undertaken for the Udupi District Deputy Commissioner's Office with a primary focus on enhancing user experience and accessibility, particularly for the elderly population.</span>
             </div>
             <button  className=" mx-[25%] w-[50%] lg:w-[50%] mt-6 lg:mt-5 bg-yellow-600 hover:bg-yellow-400 transition-all ease-in-out duration-300 text-black font-semibold hover:text-blue-950 rounded-lg py-3 text-lg cursor-pointer  mb-[50px] lg:mb-[0px] mr-[30px] lg:mr-[0px] hover:scale-105">
-            <a href="https://github.com/prathamshetty-10/ShowcaseScape-Portfolio" target="_blank" className="flex justify-center items-center gap-3 text-xl">
+            <a href="https://github.com/prathamshetty-10/CRZ-NEWV" target="_blank" className="flex justify-center items-center gap-3 text-xl">
             <LuGithub size={32}/>
             <span className="font-bold text-2xl">Explore</span>
                     
@@ -102,30 +102,30 @@ function HomePage(){
             exit={{opacity:0,transition:{duration:0.5}}}
             >
 
-            <img src={dep} className=" mx-[14px] lg:mx-[0px]  w-[90%] h-[50%] lg:h-full lg:w-[100%] rounded-3xl lg:group-hover:hidden transition-all ease-in-out duration-500 "></img>
+            <img src={hh} className=" mx-[14px] lg:mx-[0px]  w-[90%] h-[50%] lg:h-full lg:w-[100%] rounded-3xl lg:group-hover:hidden transition-all ease-in-out duration-500 "></img>
 
             <div className="w-full h-[50%] lg:h-full lg:w-full hidden lg:group-hover:block transition-all ease-in-out duration-500">
             <h4 className="text-3xl lg:text-5xl text-extrabold text-white flex">
-                <span className="text-yellow-500 m-[10px] mx-[30px]">ShowcaseScape</span> 
+                <span className="text-yellow-500 m-[10px] mx-[30px]">HealthHuddle</span> 
                 </h4>
                 <div className="text-white text-xl m-[20px] mb-[5px] ">
-                Date : 16th May 2024
+                Date : 28th June 2024
                 </div>
                 <div className="text-white text-xl m-[20px] mb-[5px] ">
-                Heyyyy!! Finally deployed my portfolio website !!! I m pretty satisfied hope yall like it :)) Please feel free to drop ur comments in the contact section.
+                Heyyyy!! Finally Developed HealthHuddle !!! Its pretty cool in my opinion :)) Please feel free to drop ur comments in the contact section.
                 </div>
                 
 
             </div>
             <div className="w-full h-[50%] lg:h-full lg:w-full  transition-all ease-in-out duration-500 lg:hidden">
             <h4 className="text-2xl lg:text-5xl text-extrabold text-white flex">
-                <span className="text-yellow-500 m-[10px] mx-[30px]">ShowcaseScape</span> 
+                <span className="text-yellow-500 m-[10px] mx-[30px]">HealthHuddle</span> 
                 </h4>
                 <div className="text-white text-xl m-[20px] mb-[5px] mt-[5px] lg:mt-[20px]">
-                Date : 16th May 2024
+                Date : 28th June 2024
                 </div>
                 <div className="text-white text-lg lg:text-xl m-[20px] mb-[5px] ">
-                Heyyyy!! Finally deployed my portfolio website !!! I m pretty satisfied hope yall like it :)) Please feel free to drop ur comments in the contact section.
+                Heyyyy!! Finally Developed HealthHuddle !!! Its pretty cool in my opinion :)) Please feel free to drop ur comments in the contact section.
                 </div>
                 
 

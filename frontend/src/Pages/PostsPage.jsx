@@ -9,6 +9,8 @@ import port from '../assets/port.png'
 import course from '../assets/course.jpg'
 import dep from '../assets/dep.png'
 import pic from '../assets/pic.jpg'
+import hh from "../assets/HH.png"
+import crz from "../assets/crz.jpg"
 import {
     motion,
     useMotionTemplate,
@@ -55,6 +57,86 @@ function Post(){
             </motion.div>
 
         <motion.div className="">
+        <div className="lg:flex ">
+        <motion.div className="w-[93%] lg:w-[50%]  pt-[30px] lg:pt-[0px] mx-[12px] lg:mx-[30px] my-[50px] h-[650px] lg:h-[400px] lg:flex shadow-[0_0_10px_gray]  hover:shadow-[0_0_25px_gray] bg-zinc-900 rounded-3xl group transition-all ease-in-out duration-500" 
+
+            initial={{opacity:0,transition:{duration:0.5}}}
+            animate={{opacity:1}}
+            exit={{opacity:0,transition:{duration:0.5}}}
+            >
+
+            <img src={hh} className=" mx-[14px] lg:mx-[0px]  w-[90%] h-[50%] lg:h-full lg:w-[100%] rounded-3xl lg:group-hover:hidden transition-all ease-in-out duration-500 "></img>
+
+            <div className="w-full h-[50%] lg:h-full lg:w-full hidden lg:group-hover:block transition-all ease-in-out duration-500">
+            <h4 className="text-3xl lg:text-5xl text-extrabold text-white flex">
+                <span className="text-yellow-500 m-[10px] mx-[30px]">HealthHuddle</span> 
+                </h4>
+                <div className="text-white text-xl m-[20px] mb-[5px] ">
+                Date : 28th June 2024
+                </div>
+                <div className="text-white text-xl m-[20px] mb-[5px] ">
+                Heyyyy!! Finally Developed HealthHuddle !!! Its pretty cool in my opinion :)) Please feel free to drop ur comments in the contact section.
+                </div>
+                
+
+            </div>
+            <div className="w-full h-[50%] lg:h-full lg:w-full  transition-all ease-in-out duration-500 lg:hidden">
+            <h4 className="text-2xl lg:text-5xl text-extrabold text-white flex">
+                <span className="text-yellow-500 m-[10px] mx-[30px]">HealthHuddle</span> 
+                </h4>
+                <div className="text-white text-xl m-[20px] mb-[5px] mt-[5px] lg:mt-[20px]">
+                Date : 28th June 2024
+                </div>
+                <div className="text-white text-lg lg:text-xl m-[20px] mb-[5px] ">
+                Heyyyy!! Finally Developed HealthHuddle !!! Its pretty cool in my opinion :)) Please feel free to drop ur comments in the contact section.
+                </div>
+                
+
+            </div>
+
+        </motion.div>
+
+        <motion.div className="w-[93%] lg:w-[50%]  pt-[30px] lg:pt-[0px] mx-[12px] lg:mx-[30px] my-[50px] h-[650px] lg:h-[400px] lg:flex shadow-[0_0_10px_gray]  hover:shadow-[0_0_25px_gray] bg-zinc-900 rounded-3xl group transition-all ease-in-out duration-500" 
+
+            initial={{opacity:0,transition:{duration:0.5}}}
+            animate={{opacity:1}}
+            exit={{opacity:0,transition:{duration:0.5}}}
+            >
+
+            <img src={crz} className=" mx-[14px] lg:mx-[0px]  w-[90%] h-[50%] lg:h-full lg:w-[100%] rounded-3xl lg:group-hover:hidden transition-all ease-in-out duration-500 "></img>
+
+            <div className="w-full h-[50%] lg:h-full lg:w-full hidden lg:group-hover:block transition-all ease-in-out duration-500">
+            <h4 className="text-3xl lg:text-5xl text-extrabold text-white flex">
+                <span className="text-yellow-500 m-[10px] mx-[30px]">CRZ</span> 
+                </h4>
+                <div className="text-white text-xl m-[20px] mb-[5px] ">
+                Date : 27th June 2024
+                </div>
+                <div className="text-white text-xl m-[20px] mb-[5px] ">
+                Heyyyy!! Finally Developed CRZ with sql server  !!! Its working well hope it gets cleared for production  :)) Please feel free to drop ur comments in the contact section.
+                </div>
+
+            </div>
+            <div className="w-full h-[50%] lg:h-full lg:w-full  transition-all ease-in-out duration-500 lg:hidden">
+            <h4 className="text-2xl lg:text-5xl text-extrabold text-white flex">
+                <span className="text-yellow-500 m-[10px] mx-[30px]">Cool Picture</span> 
+                </h4>
+                <div className="text-white text-xl m-[20px] mb-[5px] mt-[5px] lg:mt-[20px]">
+                Date : 27th June 2024
+                </div>
+                <div className="text-white text-lg lg:text-xl m-[20px] mb-[5px] ">
+                Heyyyy!! Finally Developed CRZ with sql server  !!! Its working well hope it gets cleared for production  :)) Please feel free to drop ur comments in the contact section.
+                </div>
+                
+
+            </div>
+
+        </motion.div>
+
+        
+
+
+    </div>
         <div className="lg:flex ">
         <motion.div className="w-[93%] lg:w-[50%]  pt-[30px] lg:pt-[0px] mx-[12px] lg:mx-[30px] my-[50px] h-[650px] lg:h-[400px] lg:flex shadow-[0_0_10px_gray]  hover:shadow-[0_0_25px_gray] bg-zinc-900 rounded-3xl group transition-all ease-in-out duration-500" 
 
