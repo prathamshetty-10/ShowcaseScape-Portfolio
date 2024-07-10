@@ -84,7 +84,7 @@ function HomePage(){
             CRZ Web App is a digital solution developed to streamline the process of obtaining clearances for coastal land in the Udupi District. <span className="hidden lg:block"> This project was undertaken for the Udupi District Deputy Commissioner's Office with a primary focus on enhancing user experience and accessibility, particularly for the elderly population.</span>
             </div>
             <button  className=" mx-[25%] w-[50%] lg:w-[50%] mt-6 lg:mt-5 bg-yellow-600 hover:bg-yellow-400 transition-all ease-in-out duration-300 text-black font-semibold hover:text-blue-950 rounded-lg py-3 text-lg cursor-pointer  mb-[50px] lg:mb-[0px] mr-[30px] lg:mr-[0px] hover:scale-105">
-            <a href="https://github.com/prathamshetty-10/CRZ-NEWV" target="_blank" className="flex justify-center items-center gap-3 text-xl">
+            <a href="https://github.com/aaaaryaaa/crz-works" target="_blank" className="flex justify-center items-center gap-3 text-xl">
             <LuGithub size={32}/>
             <span className="font-bold text-2xl">Explore</span>
                     
