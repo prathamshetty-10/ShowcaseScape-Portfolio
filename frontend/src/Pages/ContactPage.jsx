@@ -88,7 +88,7 @@ function Contact(){
                     </a>
             </div>
             <div className="lg:flex  border-gray-800 border-b-[0.5px] md:border-0 pb-[20px] justify-center items-center">
-            <a href="https://leetcode.com/u/JW7JTzkKrq/" target="_blank" className=" flex gap-3 justify-center items-center w-[90%] lg:w-full mb-[15px] lg:mb-[10px] text-white  my-[8px] h-[60px] border hover:border hover:border-yellow-500 border-black rounded-md bg-black   m-1 hover:text-yellow-500   transition-all ease-in-out duration-300 delay-100 focus:bg-gray-900  mx-[18px] text-xl md:text-2xl shadow-[0_0_10px_gray] ">
+            <a href="https://leetcode.com/u/shetty_p/" target="_blank" className=" flex gap-3 justify-center items-center w-[90%] lg:w-full mb-[15px] lg:mb-[10px] text-white  my-[8px] h-[60px] border hover:border hover:border-yellow-500 border-black rounded-md bg-black   m-1 hover:text-yellow-500   transition-all ease-in-out duration-300 delay-100 focus:bg-gray-900  mx-[18px] text-xl md:text-2xl shadow-[0_0_10px_gray] ">
                     <SiLeetcode size={32}/>
                     LeetCode
                     </a>

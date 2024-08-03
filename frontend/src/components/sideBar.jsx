@@ -126,7 +126,7 @@ function SideBar(){
                     <a href='https://www.linkedin.com/in/prathamshetty64546/' target="_blank"><CiLinkedin  size={30} className='text-white  font-semibold hover:text-yellow-500 hover:cursor-pointer'/></a>
                     <a href='https://www.instagram.com/pratham?igsh=bGF6ZnA2bXB3dTkw' target="_blank"><FaInstagram  size={30} className='text-white  font-semibold hover:text-yellow-500 hover:cursor-pointer'/></a>
                     <a href='mailto:prathamshetty484@gmail.com' target="_blank"><CiMail  size={30} className='text-white  font-semibold hover:text-yellow-500 hover:cursor-pointer'/></a>
-                    <a href='https://leetcode.com/u/JW7JTzkKrq/' target="_blank"><SiLeetcode  size={30} className='text-white  font-semibold hover:text-yellow-500 hover:cursor-pointer'/></a>
+                    <a href='https://leetcode.com/u/shetty_p/' target="_blank"><SiLeetcode  size={30} className='text-white  font-semibold hover:text-yellow-500 hover:cursor-pointer'/></a>
                     </div>
                     
                    
